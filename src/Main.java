@@ -9,6 +9,8 @@ public class Main {
 
         List<Vehicles> vehiclesInfDB = new LinkedList<Vehicles>();
 
+        ReadToWriteToInput rw = new ReadToWriteToInput();
+
         DbConnector myDatabase = new DbConnector();
         try {
             myDatabase.dbcall();
@@ -58,34 +60,25 @@ public class Main {
                         System.out.println("Provide a license plate with the correct format (Format: ABC-1234):");
                         licensePlate = keyboard.next();
                         }while (!menu.validLicensePlate(licensePlate));
-                        System.out.println("--Where you want to bring data from\n*1 Csv\n*2 DB");
-                        readFrom = keyboard.nextInt();
-                        System.out.println("--Where do you want to write the data\n*1 Console\n*2 Csv");
-                        writeTo = keyboard.nextInt();
+                        readFrom = rw.readFrom();
+                        writeTo = rw.writeTo();
                         menu.vehicleInsuranceStatus(vehiclesInf, licensePlate, vehiclesInfDB, readFrom, writeTo);
                         break;
                     case 2:
                         System.out.println("Type the days you want to test");
                         int days = keyboard.nextInt();
-                        System.out.println("--Where you want to bring data from\n*1 Csv\n*2 DB");
-                        readFrom = keyboard.nextInt();
-                        System.out.println("--Where do you want to write the data\n*1 Console\n*2 Csv");
-                        writeTo = keyboard.nextInt();
+                        readFrom = rw.readFrom();
+                        writeTo = rw.writeTo();
                         menu.forecomingExpiries(vehiclesInf, vehiclesInfDB, readFrom, writeTo, days);
                         break;
                     case 3:
-                        System.out.println("--Where you want to bring data from\n*1 Csv\n*2 DB");
-                        readFrom = keyboard.nextInt();
-                        System.out.println("--Where do you want to write the data\n*1 Console\n*2 Csv");
-                        writeTo = keyboard.nextInt();
-
+                        readFrom = rw.readFrom();
+                        writeTo = rw.writeTo();
                         menu.platesOrder(vehiclesInf, vehiclesInfDB, readFrom, writeTo);
                         break;
                     case 4:
-                        System.out.println("--Where you want to bring data from\n*1 Csv\n*2 DB");
-                        readFrom = keyboard.nextInt();
-                        System.out.println("--Where do you want to write the data\n*1 Console\n*2 Csv");
-                        writeTo = keyboard.nextInt();
+                        readFrom = rw.readFrom();
+                        writeTo = rw.writeTo();
                         System.out.println("Type the amount of the fine(for non integer values please separate decimal-floating with a DOT" +
                                 " (e.g. 12.2 or 344.532 or etc.)");
                         //try catch >>
