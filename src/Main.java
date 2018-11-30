@@ -1,13 +1,14 @@
 import java.sql.SQLException;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        List<Vehicles> vehiclesInfDB = new LinkedList<Vehicles>();
+      //  List<Vehicles> vehiclesInfDB = new LinkedList<Vehicles>();
+        List<Vehicles> vehiclesInfDB = new ArrayList<Vehicles>();
+
+
+
 
         ReadToWriteToInput rw = new ReadToWriteToInput();
 
@@ -30,7 +31,8 @@ public class Main {
         String file = "example.csv";
         // TODO read csv file
         List<String[]> dataListEggrafes = CsvParser.read(file);
-        List<Vehicles> vehiclesInf = new LinkedList<Vehicles>();
+        //List<Vehicles> vehiclesInf = new LinkedList<Vehicles>();
+        List<Vehicles> vehiclesInf = new ArrayList<Vehicles>();
 
         for (String[] csvR : dataListEggrafes) {
 
