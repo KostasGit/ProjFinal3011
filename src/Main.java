@@ -34,6 +34,14 @@ public class Main {
         //List<Vehicles> vehiclesInf = new LinkedList<Vehicles>();
         List<Vehicles> vehiclesInf = new ArrayList<Vehicles>();
 
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
+
+
+
         for (String[] csvR : dataListEggrafes) {
 
             vehiclesInf.add(new Vehicles(csvR[0], csvR[1], csvR[2], csvR[3]));
