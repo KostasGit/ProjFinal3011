@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bad12af-8df2-422d-a5cd-2413a2fac888" name="Default Changelist" comment="wdwwddqwwdqwdqwd">
+    <list default="true" id="1bad12af-8df2-422d-a5cd-2413a2fac888" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -159,13 +159,13 @@
         <counts>
           <entry key="csv" value="1" />
           <entry key="java" value="1504" />
-          <entry key="txt" value="44" />
+          <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1504" />
-          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="PLAIN_TEXT" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -391,7 +391,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543653557292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543654545899" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -477,7 +477,28 @@
       <option name="project" value="LOCAL" />
       <updated>1543652987406</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="wdwwddqwwdqwdqwd">
+      <created>1543653429472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543653429472</updated>
+    </task>
+    <task id="LOCAL-00007" summary="wdwwddqwwdqwdqwd&#10;sasdsas&#10;as">
+      <created>1543653564838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543653564838</updated>
+    </task>
+    <task id="LOCAL-00008" summary="wdwwddqwwdqwdqwd&#10;sasdsas&#10;as">
+      <created>1543653573052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543653573052</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -498,15 +519,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16912752" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16912752" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49932885" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.28368795" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32765958" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.4986577" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49798658" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49798927" weight="0.28429985" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49731544" visible="true" weight="0.28368795" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -558,7 +579,8 @@
     <MESSAGE value="sout added" />
     <MESSAGE value="sout added 2" />
     <MESSAGE value="wdwwddqwwdqwdqwd" />
-    <option name="LAST_COMMIT_MESSAGE" value="wdwwddqwwdqwdqwd" />
+    <MESSAGE value="wdwwddqwwdqwdqwd&#10;sasdsas&#10;as" />
+    <option name="LAST_COMMIT_MESSAGE" value="wdwwddqwwdqwdqwd&#10;sasdsas&#10;as" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
